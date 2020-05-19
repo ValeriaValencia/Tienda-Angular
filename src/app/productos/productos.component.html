@@ -1,0 +1,5 @@
+ <div class="divTodosLosProductos">  
+  <div class="cuadrado" *ngFor='let productos of producto' (click)="modal()">
+    <span class="textoLinea">{{productos.comparativePrice}}</span>{{productos.price}}<h4>{{productos.name}}</h4>
+  </div>   
+ </div>
